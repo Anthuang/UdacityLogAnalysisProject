@@ -1,5 +1,9 @@
 # Instructions
-1. Simply run in the command line:
+1. Load the database by typing the following in the command line:
+```
+psql -d news -f newsdata.sql
+```
+2. To run, simply type in the command line:
 ```
 python logger.py
 ```
